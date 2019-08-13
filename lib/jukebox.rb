@@ -32,5 +32,14 @@ def play(songs)
       puts "Playing #{song}"
       return
     end
-    puts ""
+    puts "Invalid input, please try again"
+end
+
+def exit_jukebox
+  puts "Goodbye"
+end
+
+def run
+  help
+  
 end
