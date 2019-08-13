@@ -45,6 +45,7 @@ def run
   until input == "exit"
     puts "Please enter a command:"
     input = gets.strip
+  end
     case input
     when "help"
       help
@@ -55,5 +56,32 @@ def run
     when "exit"
       exit_jukebox
     end
-  end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
