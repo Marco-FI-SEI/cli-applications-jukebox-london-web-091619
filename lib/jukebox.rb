@@ -41,9 +41,9 @@ def exit_jukebox
 end
 
 def run(songs)
+  help
+  puts "Please enter a command:"
   loop do
-    help
-    puts "Please enter a command:"
     input = gets.strip
     case input
     when "help"
