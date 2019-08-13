@@ -40,12 +40,12 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(songs)
   help
+  input = ""
   until input == "exit"
     puts "Please enter a command:"
     input = gets.strip
-  end
     case input
     when "help"
       help
@@ -56,6 +56,7 @@ def run
     when "exit"
       exit_jukebox
     end
+  end
 end
 
 
