@@ -29,5 +29,8 @@ def play(songs)
   input = gets.strip
   songs.each do |song|
     if input == song
-      puts ""
+      puts "Playing #{song}"
+      return
+    end
+    puts ""
 end
