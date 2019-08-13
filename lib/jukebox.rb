@@ -42,9 +42,9 @@ end
 
 def run(songs)
   help
+  puts "Please enter a command:"
   input = ""
   until input == "exit"
-    puts "Please enter a command:"
     input = gets.strip
     case input
     when "help"
